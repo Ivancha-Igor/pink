@@ -1,0 +1,226 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:15px/1.5 "Myriad Pro", sans-serif; background:url(../images/flower.jpg) no-repeat; background-size:100%; color:#8B8B8B; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:15px "Myriad Pro", sans-serif; color:#8B8B8B; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.block-header {
+	margin: 0 0 307px;
+	background: #fff;
+	opacity: 0.9;
+	height: 90px;
+	}
+.header {
+	width: 960px;
+	margin: 0 auto;
+	} 
+.header h1 {
+	float: left;
+	width: 134px;
+	height: 53px;
+	margin: 16px;
+	overflow: hidden;	
+	}
+.header ul {
+	overflow: hidden;
+	text-align: right;
+	padding: 40px 0 6px 0;
+	}
+.header ul li {
+	display: inline;
+	margin: 0 2px 0 26px;
+	padding: 0 10px 0 0;
+	}
+.header ul li a {
+	font: 17px "Myriad Pro", sans-serif;
+	color: #454545;
+	}
+.header .autor {
+	padding: 4px 13px 6px 34px;
+	background: #DD6C6E url(../images/login.png) no-repeat;
+	background-position: 12px 8px;
+	border-radius: 5px;
+	}
+.header .autor a {
+	color: #fff;
+	}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content h2 {
+	text-align: center;
+	font: bold 69px "Myriad Pro", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	}
+.content span {
+	display: block;
+	text-align: center;
+	margin: 0 0 138px;
+	font: 100 25px "Myriad Pro", sans-serif;
+	color: #fff;
+	}
+.content h3 {
+	text-align: center;
+	margin: 0 0 16px;
+	font: 35px "Myriad Pro",sans-serif;
+	color: #3F3F3F;
+	}
+.content h3~p {
+	width: 830px;
+	margin: 0 auto;
+	text-align: center;
+	font: 17px "Myriad Pro", sans-serif;
+	color: #636363;
+	}
+.content .choice-list {
+	text-align: center;
+	margin: 83px 0 0;
+	background: url(../images/line.jpg) bottom repeat-x;
+	padding: 0 0 55px;
+	}
+.content .choice-list li {
+	display: inline-block;
+	padding: 0 31px;
+	}
+.content .choice-list li a {
+	display: inline-block;
+	margin: 0px 0px; 
+	background: url(../images/select.png) center top no-repeat;
+	border-radius: 90px;
+	width: 180px;
+	height: 180px;
+	font: 100 17px "Myriad Pro", sans-serif;
+	color: #fff;
+	}
+.content .choice-list li a span {
+	margin: 131px 0 0;
+	font: 100 17px "Myriad Pro", sans-serif;
+	}
+.content .choice-list .tickets a {
+	background-position: 42px 37px;
+	background-color: #4DB9F3;
+	}
+.content .choice-list .camera a {
+	background-position: 46px -131px;
+	background-color: #6FC125;
+	}
+.content .choice-list .beer a {
+	background-position: 57px -323px;
+	background-color: #FF5548;
+	}
+.content .choice-list .devices a {
+	background-position: 48px -495px;
+	background-color: #E38F23;
+	}
+.block-content {
+	width: 950px;
+	margin: 0px auto;
+	}
+.block-content ul {
+	overflow: hidden;
+	}
+.block-content ul li {
+	overflow: hidden;
+	margin: 42px 0 75px;
+	}
+.block-content img {
+	float: left;
+	width: 199px;
+	margin: 0 24px 0 43px;
+	}
+.block-content h4 {
+	overflow: hidden;
+	font: 27px "Myriad Pro", sans-serif;
+	color: #3F3F3F;
+	margin: 0 auto 14px;
+	}
+.block-content p {
+	overflow: hidden;
+	}  	
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.bg-footer {
+	background: url(../images/back.jpg) repeat-x;
+	height: 258px;
+	}
+.footer {
+	width: 960px;
+	margin: 0 auto;
+	}
+.footer .menu-list {
+	float: left;
+	margin: 32px 38px 0 38px;
+	}
+.footer .menu-list h5 {
+	font: 21px "Myriad Pro", sans-serif;
+	color: #ADADAD;
+	margin: 0 0 14px;
+	}
+.footer .social {
+	overflow: hidden;
+	padding: 55px 0 10px;
+	margin: 0 0 8px;
+	}
+.footer .social li {
+	display: inline-block;
+	padding: 0 0 0 11px;
+	}
+.footer .social li a {
+	display: inline-block;
+	background: #696B69 url(../images/social.png) center no-repeat;
+	width: 52px;
+	height: 52px;
+	border-radius: 26px;
+	}
+.footer .social .fb a {
+	background-position: 16px 10px;
+	}
+.footer .social .tw a {
+	background-position: 10px -39px;
+	}
+.footer .social .bl a {
+	background-position: 7px -95px;
+	}
+.footer .social .ch a {
+	background-position: 7px -145px;
+	}
+.footer p {
+	overflow: hidden;
+	text-align: right;
+	}
